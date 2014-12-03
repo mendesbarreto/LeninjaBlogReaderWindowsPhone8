@@ -59,11 +59,10 @@ namespace BlogReader
 
                 var pos = toftitle[0].Descendants("article").ToList();
                 foreach (var item in pos)
-                 {
+                {
                     var link = item.Descendants("a").ToList()[0].GetAttributeValue("href", null);
                     var img = item.Descendants("img").ToList()[0].GetAttributeValue("src", null);
                     var title = item.Descendants("h1").ToList()[0].InnerText;
-
 
                     Console.WriteLine("\n");
                     Console.WriteLine("Post Title: " + title);
