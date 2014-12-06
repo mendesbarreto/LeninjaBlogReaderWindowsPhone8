@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="BlogReaderWp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlogReaderWp"
+    xmlns:custom="using:BlogReader"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="ButtonGet" Content="Get" HorizontalAlignment="Left" Margin="71,531,0,0" VerticalAlignment="Top" Height="80" Width="259" Click="ButtonGet_Click"/>
+        <TextBlock x:Name="ResponseTxt" HorizontalAlignment="Left" Margin="34,31,0,0" TextWrapping="Wrap" Text="ResponseTxt" VerticalAlignment="Top" Height="466" Width="333" FontSize="20"/>
+
+    </Grid>
+</Page>

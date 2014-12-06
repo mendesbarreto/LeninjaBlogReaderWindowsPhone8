@@ -3,18 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogReader", "BlogReader.csproj", "{40B637DD-8E65-4E07-97B9-B85C44B09BEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogReader", "ConsoleApp\BlogReader.csproj", "{40B637DD-8E65-4E07-97B9-B85C44B09BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogReaderWp", "WindowsPhoneApp\BlogReaderWp\BlogReaderWp.csproj", "{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalsCSharp .NET 4.5.1 Universal Apps", "..\SignalsCSharpApi\sgnals .NET 4.5.1 Universal Apps\SignalsCSharp .NET 4.5.1 Universal Apps.csproj", "{F3430E3E-A211-4E28-86FA-B6CF32055437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{40B637DD-8E65-4E07-97B9-B85C44B09BEA}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|ARM.Build.0 = Debug|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|x86.ActiveCfg = Debug|x86
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|x86.Build.0 = Debug|x86
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Debug|x86.Deploy.0 = Debug|x86
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|ARM.ActiveCfg = Release|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|ARM.Build.0 = Release|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|ARM.Deploy.0 = Release|ARM
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|x86.ActiveCfg = Release|x86
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|x86.Build.0 = Release|x86
+		{5EE32278-9D69-44E4-B777-4B02AC8CAE0F}.Release|x86.Deploy.0 = Release|x86
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F3430E3E-A211-4E28-86FA-B6CF32055437}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
