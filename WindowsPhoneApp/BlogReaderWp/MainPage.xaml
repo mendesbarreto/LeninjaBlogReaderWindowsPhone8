@@ -10,8 +10,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="ButtonGet" Content="Get" HorizontalAlignment="Left" Margin="71,531,0,0" VerticalAlignment="Top" Height="80" Width="259" Click="ButtonGet_Click"/>
-        <TextBlock x:Name="ResponseTxt" HorizontalAlignment="Left" Margin="34,31,0,0" TextWrapping="Wrap" Text="ResponseTxt" VerticalAlignment="Top" Height="466" Width="333" FontSize="20"/>
+        <Button x:Name="ButtonGet" Content="Get" HorizontalAlignment="Left" Margin="70,552,0,0" VerticalAlignment="Top" Height="80" Width="259" Click="ButtonGet_Click"/>
+        <Image HorizontalAlignment="Left" Height="488" Margin="31,28,0,0" VerticalAlignment="Top" Width="336"/>
 
     </Grid>
 </Page>

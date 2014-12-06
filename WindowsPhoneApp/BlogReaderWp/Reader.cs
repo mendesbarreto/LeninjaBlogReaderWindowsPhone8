@@ -32,10 +32,8 @@ namespace BlogReader
             return m_postList;
         }
 
-        public async void Parsing(string website)
+        public void Parsing(string website)
         {
-            MessageDialog msgbox;
-
             try
             {
                 HttpClient http = new HttpClient();
@@ -74,14 +72,11 @@ namespace BlogReader
                  }
  
                  //listboxproduct.DataContext = listproduct;
-                msgbox = new MessageDialog("URL LOADED");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                msgbox = new MessageDialog("Problem to get URL");
+                System.Diagnostics.Debug.WriteLine(ex);
             }
-
-            await msgbox.ShowAsync();
         }
 
 /*

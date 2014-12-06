@@ -50,7 +50,9 @@ namespace BlogReaderWp
                     
                 }
                 System.Diagnostics.Debug.WriteLine("FInal: " + L_strBuffer);
-                this.ResponseTxt.Text = L_strBuffer;
+
+
+                L_list[0].LoadPost();
 
                 m_init = true;
             }
